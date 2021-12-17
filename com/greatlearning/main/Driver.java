@@ -53,6 +53,7 @@ public class Driver {
 					System.out.println("Stock of value " + stockPrice + " is present");
 				}
 			case 6:
+				sc.close();
 				System.exit(1);
 				break;
 				
